@@ -1082,7 +1082,9 @@
 
                                     {% csrf_token %}
                                     {{ form|crispy }}
-                                    <div class="form-group"><button class="btn btn-primary btn-xl" name="sentMessage" type="submit">Send</button></div>
+                                    <div class="form-group" style="margin: 10;top: 40%;left: 40%;">
+                                        <button class="btn-solid-lg" name="sentMessage" type="submit">Gönder</button>
+                                    </div>
                                 </form>
                             {% endif %}
 
